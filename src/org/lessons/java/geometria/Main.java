@@ -23,6 +23,8 @@ public class Main {
         System.out.println("L'area del tuo rettangolo è: " + rettangolo.calcoloArea());
         System.out.println("Il perimetro del rettangolo è: " + rettangolo.calcoloPerimetro());
 
+        rettangolo.disegna();
+
 
         scan.close();
     }
