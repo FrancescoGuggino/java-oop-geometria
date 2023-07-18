@@ -31,17 +31,21 @@ public class Rettangolo {
         int base=this.base;
         int altezza=this.altezza;
 
-        for (int i = 0; i < base; i++) {
+        for (int i = 0; i < base -1; i++) {
             System.out.print("o");
         }
 
 
-        for (int i = 0; i < altezza; i++) {
+        for (int i = 0; i < altezza -1; i++) {
             System.out.println("o");
         }
+        for (int j = base; j < base-1; j++) {
+            System.out.println("i");
+        }
+
 
         for (int i = 0; i < base; i++) {
-            System.out.println("o");
+            System.out.print("o");
 
         }
 
